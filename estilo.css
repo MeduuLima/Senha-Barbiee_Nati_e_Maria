@@ -11,7 +11,6 @@
 *{
     font-weight: 400;
 }
-
 body{
     color: var(--cor-de-texto);
     background-color: var(--cor-de-fundo);
@@ -102,6 +101,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: var(--cor-de-texto);
-    
+    color: var(--cor-de-texto);   
     }
+
+    @media screen and (min-width:768px){
+        .parametro--coluna-senha{
+            flex-direction:
+        }
+    } 
+        
