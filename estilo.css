@@ -55,6 +55,7 @@ body{
     #campo-senha:focus{
     outline: none;
     color: var(--cor-de-texto);
+    border: none;
     
     }
     
@@ -104,6 +105,10 @@ body{
     flex-direction: column;
     justify-content: center;
     color: var(--cor-de-texto);   
+    }
+
+    .parametro-senha{
+        width: 50%;
     }
 
     @media screen and (min-width:768px){
